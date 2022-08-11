@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>rove</title>
+        <link rel="stylesheet" href="rove.css">
+    </head>
+    <body>
+        <header>
+            <label class="logo">rove!</label>
+            <nav>
+                <ul class="nav_links">
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#aboutus">About Us</a></li>
+                    <li><a href="#locations">Locations</a></li>
+                    <li><a href="#">Packages</a></li>
+                    <li><a href="#">Our Team</a></li>
+                </ul>
+            </nav>
+            <a class="contact_us" href="./contactus.html"><button>Contact Us</button></a>
+        </header>
+        <div class="slideshow-container" id="Home">
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 4</div>
+                <img src="C:\Users\Lenovo\Desktop\Architechs front end\images\louvre.png" style="width:100%">
+                <div class="text">Louvre</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 4</div>
+                <img src="C:\Users\Lenovo\Desktop\Architechs front end\images\japan.png" style="width:100%">
+                <div class="text">Mount Fuji</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 4</div>
+                <img src="C:\Users\Lenovo\Desktop\Architechs front end\images\italy.jpg" style="width:100%">
+                <div class="text">Italy</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 4</div>
+                <img src="C:\Users\Lenovo\Desktop\Architechs front end\images\Himalaya-Trekking-People.jpg" style="width:100%">
+                <div class="text">Himalaya</div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+        <p class="head1" id="aboutus">About Us</p>
+               
+
+        <iframe class="emb_video" src="https://www.youtube.com/embed/JkPcA8dngB4" title="The Louvre: 800 years of history" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p class="txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vestibulum lorem non augue posuere eleifend. Maecenas tincidunt iaculis ipsum ut imperdiet. Donec suscipit lacus eget ultricies porttitor. Fusce rhoncus neque dictum, lobortis diam nec, vestibulum diam. Nam efficitur dolor non odio commodo vestibulum. Maecenas mattis dictum lacus at mattis. Suspendisse nisi purus, vulputate nec neque in, posuere pharetra odio. Curabitur congue nunc a ligula ornare, sit amet dignissim augue molestie. Praesent condimentum ac diam at posuere. Cras sed neque nec justo tincidunt gravida. Duis auctor ac sem interdum tempus. Praesent congue in neque et semper. Sed auctor, felis sit amet hendrerit dictum, nibh odio posuere eros, id pulvinar dui magna et est. Mauris fringilla turpis quis pulvinar porta.</p>
+        <p class="head1" id="locations">Locations</p>
+        <div id="card_wrapper">
+            <div class="card" id="card1">
+                <img src="./images/louvre.png" alt="pic1" style="width:100%">
+                <div class="container">
+                    <h4 class="card_heading"><b>Paris</b></h4>
+                    <p class="card_content">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="card" id="card2">
+                <img src="./images/Himalaya-Trekking-People.jpg" alt="pic2" style="width:100%">
+                <div class="container">
+                    <h4 class="card_heading"><b>Paris</b></h4>
+                    <p class="card_content">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="card" id="card3">
+                <img src="./images/italy.jpg" alt="pic2" style="width:100%">
+                <div class="container">
+                    <h4 class="card_heading"><b>Paris</b></h4>
+                    <p class="card_content">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+        <p class="head1" id="packages">Packages</p>
+        
+        <p class="head1" id="Our Team">Our Team</p>
+        
+        <script src="rove.js"></script>
+        
+    </body>
+</html>
+
+        
